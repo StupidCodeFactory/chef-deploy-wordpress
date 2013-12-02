@@ -34,9 +34,6 @@ define :wordpress, :variables => {} do
     end
   end
 
-  template "/tmp/grant.sql" do
-  end
-
   bash "grant user access database" do
     code "mysqladmin create #{params[:mysql_dbname]}"
     not_if do
