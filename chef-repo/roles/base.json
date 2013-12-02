@@ -1,0 +1,21 @@
+{
+  "name": "base",
+  "description": "debian base default runlist",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+      "lintest_wordpress": {
+          "mysql_password": "store_me_in_encrypted_data_bag",
+          "mysql_user":     "lintest_user",
+          "mysql_dbname":   "lintest_wpdb"
+      }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+      "recipe[apt]",
+      "recipe[lintest_apache2::default]"
+  ],
+  "env_run_lists": {
+  }
+}

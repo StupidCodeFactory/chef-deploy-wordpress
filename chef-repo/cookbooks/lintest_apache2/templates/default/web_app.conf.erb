@@ -1,0 +1,26 @@
+<VirtualHost *:<%= @params[:server_port] || node['apache']['listen_ports'].first %>>
+  ServerName <%= @params[:server_name] %>
+  ServerAlias <% @params[:server_aliases].each do |a| %><%= a %> <% end %>
+  DocumentRoot <%= @params[:docroot] %>
+
+  <Directory <%= @params[:docroot] %>>
+    Options FollowSymLinks
+    AllowOverride FileInfo Options
+    Order allow,deny
+    Allow from all
+  </Directory>
+
+  <Directory />
+    Options FollowSymLinks
+    AllowOverride None
+  </Directory>
+
+  LogLevel info
+  ErrorLog <%= @params[:error_log] %>
+  CustomLog <%= @params[:access_log] %> combined
+
+  RewriteEngine On
+  RewriteLog <%= @params[:rewrite_log] %>
+  RewriteLogLevel 0
+
+</VirtualHost>

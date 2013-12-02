@@ -1,0 +1,424 @@
+I, [2013-12-02T02:57:31.933661 #18969]  INFO -- Kitchen: -----> Starting Kitchen (v1.0.0.rc.2)
+E, [2013-12-02T02:57:31.934048 #18969] ERROR -- Kitchen: ------Exception-------
+E, [2013-12-02T02:57:31.934109 #18969] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2013-12-02T02:57:31.934160 #18969] ERROR -- Kitchen: Message: Kitchen YAML file /Users/yannmarquet/code/rackspace_test/chef-repo/cookbooks/lintest_apache2/.kitchen.yml does not exist.
+E, [2013-12-02T02:57:31.934197 #18969] ERROR -- Kitchen: ------Backtrace-------
+E, [2013-12-02T02:57:31.934245 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/loader/yaml.rb:59:in `read'
+E, [2013-12-02T02:57:31.934286 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:78:in `data'
+E, [2013-12-02T02:57:31.934312 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:66:in `suites'
+E, [2013-12-02T02:57:31.934337 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2013-12-02T02:57:31.934361 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `build_instances'
+E, [2013-12-02T02:57:31.934387 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:52:in `instances'
+E, [2013-12-02T02:57:31.934411 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:342:in `get_filtered_instances'
+E, [2013-12-02T02:57:31.934436 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:327:in `parse_subcommand'
+E, [2013-12-02T02:57:31.934460 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:307:in `block in exec_action'
+E, [2013-12-02T02:57:31.934485 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2013-12-02T02:57:31.934514 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:305:in `exec_action'
+E, [2013-12-02T02:57:31.934538 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:108:in `block (2 levels) in <class:CLI>'
+E, [2013-12-02T02:57:31.934562 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+E, [2013-12-02T02:57:31.934586 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+E, [2013-12-02T02:57:31.934610 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:288:in `invoke_task'
+E, [2013-12-02T02:57:31.934634 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+E, [2013-12-02T02:57:31.934658 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+E, [2013-12-02T02:57:31.934683 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2013-12-02T02:57:31.934710 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2013-12-02T02:57:31.934757 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `<top (required)>'
+E, [2013-12-02T02:57:31.934785 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `load'
+E, [2013-12-02T02:57:31.934811 #18969] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `<main>'
+E, [2013-12-02T02:57:31.934837 #18969] ERROR -- Kitchen: ----------------------
+I, [2013-12-02T02:58:33.949401 #19046]  INFO -- Kitchen: -----> Starting Kitchen (v1.0.0.rc.2)
+E, [2013-12-02T02:58:34.476915 #19046] ERROR -- Kitchen: ------Exception-------
+E, [2013-12-02T02:58:34.477115 #19046] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2013-12-02T02:58:34.477191 #19046] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.3.5/lib/bundler/rubygems_integration.rb:214:in `block in replace_gem': vagrant is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:22:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T02:58:34.477259 #19046] ERROR -- Kitchen: ---Nested Exception---
+E, [2013-12-02T02:58:34.477349 #19046] ERROR -- Kitchen: Class: Mixlib::ShellOut::ShellCommandFailed
+E, [2013-12-02T02:58:34.477450 #19046] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.3.5/lib/bundler/rubygems_integration.rb:214:in `block in replace_gem': vagrant is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:22:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T02:58:34.477532 #19046] ERROR -- Kitchen: ------Backtrace-------
+E, [2013-12-02T02:58:34.477634 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2013-12-02T02:58:34.477735 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2013-12-02T02:58:34.477850 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2013-12-02T02:58:34.477923 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:116:in `silently_run'
+E, [2013-12-02T02:58:34.477973 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:193:in `vagrant_version'
+E, [2013-12-02T02:58:34.478033 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:201:in `check_vagrant_version'
+E, [2013-12-02T02:58:34.478099 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:97:in `verify_dependencies'
+E, [2013-12-02T02:58:34.478157 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver.rb:45:in `for_plugin'
+E, [2013-12-02T02:58:34.478213 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:124:in `new_driver'
+E, [2013-12-02T02:58:34.478260 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:130:in `new_instance'
+E, [2013-12-02T02:58:34.478352 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2013-12-02T02:58:34.478420 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `map'
+E, [2013-12-02T02:58:34.478468 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `with_index'
+E, [2013-12-02T02:58:34.478526 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `build_instances'
+E, [2013-12-02T02:58:34.478583 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:52:in `instances'
+E, [2013-12-02T02:58:34.478630 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:342:in `get_filtered_instances'
+E, [2013-12-02T02:58:34.478695 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:327:in `parse_subcommand'
+E, [2013-12-02T02:58:34.478744 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:307:in `block in exec_action'
+E, [2013-12-02T02:58:34.478810 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2013-12-02T02:58:34.478867 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:305:in `exec_action'
+E, [2013-12-02T02:58:34.478929 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:108:in `block (2 levels) in <class:CLI>'
+E, [2013-12-02T02:58:34.478978 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+E, [2013-12-02T02:58:34.479034 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+E, [2013-12-02T02:58:34.479089 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:288:in `invoke_task'
+E, [2013-12-02T02:58:34.479136 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+E, [2013-12-02T02:58:34.479199 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+E, [2013-12-02T02:58:34.479249 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2013-12-02T02:58:34.479302 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2013-12-02T02:58:34.479355 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `<top (required)>'
+E, [2013-12-02T02:58:34.479425 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `load'
+E, [2013-12-02T02:58:34.479475 #19046] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `<main>'
+E, [2013-12-02T02:58:34.479521 #19046] ERROR -- Kitchen: ----------------------
+I, [2013-12-02T02:59:48.362721 #19361]  INFO -- Kitchen: -----> Starting Kitchen (v1.0.0.rc.2)
+E, [2013-12-02T02:59:49.876866 #19361] ERROR -- Kitchen: ------Exception-------
+E, [2013-12-02T02:59:49.877006 #19361] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2013-12-02T02:59:49.877060 #19361] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/code/rackspace_test/chef-repo/cookbooks/lintest_apache2/Vagrantfile:4:in `<top (required)>': undefined method `configure' for Vagrant:Module (NoMethodError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:198:in `load'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:198:in `block in load_config!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:196:in `each'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:196:in `load_config!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:139:in `load!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:35:in `load!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/command.rb:12:in `execute'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/bin/vagrant:7:in `<top (required)>'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:23:in `load'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:23:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T02:59:49.877102 #19361] ERROR -- Kitchen: ---Nested Exception---
+E, [2013-12-02T02:59:49.877139 #19361] ERROR -- Kitchen: Class: Mixlib::ShellOut::ShellCommandFailed
+E, [2013-12-02T02:59:49.877177 #19361] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/code/rackspace_test/chef-repo/cookbooks/lintest_apache2/Vagrantfile:4:in `<top (required)>': undefined method `configure' for Vagrant:Module (NoMethodError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:198:in `load'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:198:in `block in load_config!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:196:in `each'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:196:in `load_config!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:139:in `load!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:35:in `load!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/command.rb:12:in `execute'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/bin/vagrant:7:in `<top (required)>'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:23:in `load'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:23:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T02:59:49.877228 #19361] ERROR -- Kitchen: ------Backtrace-------
+E, [2013-12-02T02:59:49.877266 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2013-12-02T02:59:49.877337 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2013-12-02T02:59:49.877375 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2013-12-02T02:59:49.877414 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:116:in `silently_run'
+E, [2013-12-02T02:59:49.877461 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:193:in `vagrant_version'
+E, [2013-12-02T02:59:49.877508 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:201:in `check_vagrant_version'
+E, [2013-12-02T02:59:49.877552 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:97:in `verify_dependencies'
+E, [2013-12-02T02:59:49.877594 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver.rb:45:in `for_plugin'
+E, [2013-12-02T02:59:49.877642 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:124:in `new_driver'
+E, [2013-12-02T02:59:49.877694 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:130:in `new_instance'
+E, [2013-12-02T02:59:49.877740 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2013-12-02T02:59:49.877793 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `map'
+E, [2013-12-02T02:59:49.877834 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `with_index'
+E, [2013-12-02T02:59:49.877866 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `build_instances'
+E, [2013-12-02T02:59:49.877913 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:52:in `instances'
+E, [2013-12-02T02:59:49.877956 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:342:in `get_filtered_instances'
+E, [2013-12-02T02:59:49.877995 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:327:in `parse_subcommand'
+E, [2013-12-02T02:59:49.878033 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:307:in `block in exec_action'
+E, [2013-12-02T02:59:49.878077 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2013-12-02T02:59:49.878120 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:305:in `exec_action'
+E, [2013-12-02T02:59:49.878159 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:108:in `block (2 levels) in <class:CLI>'
+E, [2013-12-02T02:59:49.878197 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+E, [2013-12-02T02:59:49.878241 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+E, [2013-12-02T02:59:49.878282 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:288:in `invoke_task'
+E, [2013-12-02T02:59:49.878321 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+E, [2013-12-02T02:59:49.878364 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+E, [2013-12-02T02:59:49.878408 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2013-12-02T02:59:49.878446 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2013-12-02T02:59:49.878483 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `<top (required)>'
+E, [2013-12-02T02:59:49.878527 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `load'
+E, [2013-12-02T02:59:49.878559 #19361] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `<main>'
+E, [2013-12-02T02:59:49.878595 #19361] ERROR -- Kitchen: ----------------------
+I, [2013-12-02T03:04:55.011236 #20162]  INFO -- Kitchen: -----> Starting Kitchen (v1.0.0.rc.2)
+E, [2013-12-02T03:04:57.616846 #20162] ERROR -- Kitchen: ------Exception-------
+E, [2013-12-02T03:04:57.617012 #20162] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2013-12-02T03:04:57.617086 #20162] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/code/rackspace_test/chef-repo/cookbooks/lintest_apache2/Vagrantfile:4:in `<top (required)>': undefined method `configure' for Vagrant:Module (NoMethodError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:198:in `load'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:198:in `block in load_config!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:196:in `each'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:196:in `load_config!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:139:in `load!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:35:in `load!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/command.rb:12:in `execute'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/bin/vagrant:7:in `<top (required)>'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/vagrant:23:in `load'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/vagrant:23:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T03:04:57.617166 #20162] ERROR -- Kitchen: ---Nested Exception---
+E, [2013-12-02T03:04:57.617224 #20162] ERROR -- Kitchen: Class: Mixlib::ShellOut::ShellCommandFailed
+E, [2013-12-02T03:04:57.617302 #20162] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/code/rackspace_test/chef-repo/cookbooks/lintest_apache2/Vagrantfile:4:in `<top (required)>': undefined method `configure' for Vagrant:Module (NoMethodError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:198:in `load'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:198:in `block in load_config!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:196:in `each'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:196:in `load_config!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:139:in `load!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/environment.rb:35:in `load!'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/lib/vagrant/command.rb:12:in `execute'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/vagrant-0.5.4/bin/vagrant:7:in `<top (required)>'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/vagrant:23:in `load'
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/vagrant:23:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T03:04:57.617373 #20162] ERROR -- Kitchen: ------Backtrace-------
+E, [2013-12-02T03:04:57.617423 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2013-12-02T03:04:57.617465 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2013-12-02T03:04:57.617504 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2013-12-02T03:04:57.617547 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:116:in `silently_run'
+E, [2013-12-02T03:04:57.617581 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:193:in `vagrant_version'
+E, [2013-12-02T03:04:57.617614 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:201:in `check_vagrant_version'
+E, [2013-12-02T03:04:57.617647 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:97:in `verify_dependencies'
+E, [2013-12-02T03:04:57.617674 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver.rb:45:in `for_plugin'
+E, [2013-12-02T03:04:57.617707 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:124:in `new_driver'
+E, [2013-12-02T03:04:57.617734 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:130:in `new_instance'
+E, [2013-12-02T03:04:57.617771 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2013-12-02T03:04:57.617808 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `map'
+E, [2013-12-02T03:04:57.617841 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `with_index'
+E, [2013-12-02T03:04:57.617882 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `build_instances'
+E, [2013-12-02T03:04:57.617923 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:52:in `instances'
+E, [2013-12-02T03:04:57.617958 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:342:in `get_filtered_instances'
+E, [2013-12-02T03:04:57.617992 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:327:in `parse_subcommand'
+E, [2013-12-02T03:04:57.618034 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:307:in `block in exec_action'
+E, [2013-12-02T03:04:57.618065 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2013-12-02T03:04:57.618099 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:305:in `exec_action'
+E, [2013-12-02T03:04:57.618129 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:108:in `block (2 levels) in <class:CLI>'
+E, [2013-12-02T03:04:57.618174 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+E, [2013-12-02T03:04:57.618211 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+E, [2013-12-02T03:04:57.618245 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:288:in `invoke_task'
+E, [2013-12-02T03:04:57.618296 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+E, [2013-12-02T03:04:57.618330 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+E, [2013-12-02T03:04:57.618358 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2013-12-02T03:04:57.618398 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2013-12-02T03:04:57.618424 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `<top (required)>'
+E, [2013-12-02T03:04:57.618453 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `load'
+E, [2013-12-02T03:04:57.618487 #20162] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `<main>'
+E, [2013-12-02T03:04:57.618541 #20162] ERROR -- Kitchen: ----------------------
+I, [2013-12-02T03:05:50.581216 #20372]  INFO -- Kitchen: -----> Starting Kitchen (v1.0.0.rc.2)
+E, [2013-12-02T03:05:50.733269 #20372] ERROR -- Kitchen: ------Exception-------
+E, [2013-12-02T03:05:50.733395 #20372] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2013-12-02T03:05:50.733444 #20372] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '127'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: rbenv: vagrant: command not found
+---- End output of vagrant --version ----
+Ran vagrant --version returned 127
+E, [2013-12-02T03:05:50.733506 #20372] ERROR -- Kitchen: ---Nested Exception---
+E, [2013-12-02T03:05:50.733547 #20372] ERROR -- Kitchen: Class: Mixlib::ShellOut::ShellCommandFailed
+E, [2013-12-02T03:05:50.733628 #20372] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '127'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: rbenv: vagrant: command not found
+---- End output of vagrant --version ----
+Ran vagrant --version returned 127
+E, [2013-12-02T03:05:50.733671 #20372] ERROR -- Kitchen: ------Backtrace-------
+E, [2013-12-02T03:05:50.733702 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2013-12-02T03:05:50.733732 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2013-12-02T03:05:50.733770 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2013-12-02T03:05:50.733801 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:116:in `silently_run'
+E, [2013-12-02T03:05:50.733835 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:193:in `vagrant_version'
+E, [2013-12-02T03:05:50.733866 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:201:in `check_vagrant_version'
+E, [2013-12-02T03:05:50.733928 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:97:in `verify_dependencies'
+E, [2013-12-02T03:05:50.733978 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver.rb:45:in `for_plugin'
+E, [2013-12-02T03:05:50.734028 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:124:in `new_driver'
+E, [2013-12-02T03:05:50.734077 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:130:in `new_instance'
+E, [2013-12-02T03:05:50.734107 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2013-12-02T03:05:50.734149 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `map'
+E, [2013-12-02T03:05:50.734185 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `with_index'
+E, [2013-12-02T03:05:50.734220 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `build_instances'
+E, [2013-12-02T03:05:50.734250 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:52:in `instances'
+E, [2013-12-02T03:05:50.734286 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:342:in `get_filtered_instances'
+E, [2013-12-02T03:05:50.734326 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:327:in `parse_subcommand'
+E, [2013-12-02T03:05:50.734359 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:307:in `block in exec_action'
+E, [2013-12-02T03:05:50.734397 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2013-12-02T03:05:50.734441 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:305:in `exec_action'
+E, [2013-12-02T03:05:50.734478 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:108:in `block (2 levels) in <class:CLI>'
+E, [2013-12-02T03:05:50.734517 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+E, [2013-12-02T03:05:50.734550 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+E, [2013-12-02T03:05:50.734574 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:288:in `invoke_task'
+E, [2013-12-02T03:05:50.734607 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+E, [2013-12-02T03:05:50.734639 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+E, [2013-12-02T03:05:50.734671 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2013-12-02T03:05:50.734695 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2013-12-02T03:05:50.734732 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `<top (required)>'
+E, [2013-12-02T03:05:50.734778 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `load'
+E, [2013-12-02T03:05:50.734812 #20372] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `<main>'
+E, [2013-12-02T03:05:50.734845 #20372] ERROR -- Kitchen: ----------------------
+I, [2013-12-02T03:14:04.294912 #20574]  INFO -- Kitchen: -----> Starting Kitchen (v1.0.0.rc.2)
+E, [2013-12-02T03:14:04.843143 #20574] ERROR -- Kitchen: ------Exception-------
+E, [2013-12-02T03:14:04.843332 #20574] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2013-12-02T03:14:04.843392 #20574] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.3.5/lib/bundler/rubygems_integration.rb:214:in `block in replace_gem': vagrant is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:22:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T03:14:04.843454 #20574] ERROR -- Kitchen: ---Nested Exception---
+E, [2013-12-02T03:14:04.843509 #20574] ERROR -- Kitchen: Class: Mixlib::ShellOut::ShellCommandFailed
+E, [2013-12-02T03:14:04.843561 #20574] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.3.5/lib/bundler/rubygems_integration.rb:214:in `block in replace_gem': vagrant is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:22:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T03:14:04.843610 #20574] ERROR -- Kitchen: ------Backtrace-------
+E, [2013-12-02T03:14:04.843656 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2013-12-02T03:14:04.843736 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2013-12-02T03:14:04.843785 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2013-12-02T03:14:04.843828 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:116:in `silently_run'
+E, [2013-12-02T03:14:04.843859 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:193:in `vagrant_version'
+E, [2013-12-02T03:14:04.843894 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:201:in `check_vagrant_version'
+E, [2013-12-02T03:14:04.843937 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:97:in `verify_dependencies'
+E, [2013-12-02T03:14:04.843965 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver.rb:45:in `for_plugin'
+E, [2013-12-02T03:14:04.843998 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:124:in `new_driver'
+E, [2013-12-02T03:14:04.844038 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:130:in `new_instance'
+E, [2013-12-02T03:14:04.844070 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2013-12-02T03:14:04.844103 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `map'
+E, [2013-12-02T03:14:04.844130 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `with_index'
+E, [2013-12-02T03:14:04.844165 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `build_instances'
+E, [2013-12-02T03:14:04.844201 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:52:in `instances'
+E, [2013-12-02T03:14:04.844228 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:342:in `get_filtered_instances'
+E, [2013-12-02T03:14:04.844255 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:327:in `parse_subcommand'
+E, [2013-12-02T03:14:04.844300 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:307:in `block in exec_action'
+E, [2013-12-02T03:14:04.844334 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2013-12-02T03:14:04.844361 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:305:in `exec_action'
+E, [2013-12-02T03:14:04.844391 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:108:in `block (2 levels) in <class:CLI>'
+E, [2013-12-02T03:14:04.844433 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+E, [2013-12-02T03:14:04.844475 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+E, [2013-12-02T03:14:04.844504 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:288:in `invoke_task'
+E, [2013-12-02T03:14:04.844547 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+E, [2013-12-02T03:14:04.844575 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+E, [2013-12-02T03:14:04.844602 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2013-12-02T03:14:04.844635 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2013-12-02T03:14:04.844673 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `<top (required)>'
+E, [2013-12-02T03:14:04.844711 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `load'
+E, [2013-12-02T03:14:04.844744 #20574] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `<main>'
+E, [2013-12-02T03:14:04.844774 #20574] ERROR -- Kitchen: ----------------------
+I, [2013-12-02T03:25:25.883064 #21874]  INFO -- Kitchen: -----> Starting Kitchen (v1.0.0.rc.2)
+E, [2013-12-02T03:25:26.505711 #21874] ERROR -- Kitchen: ------Exception-------
+E, [2013-12-02T03:25:26.505871 #21874] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2013-12-02T03:25:26.525239 #21874] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.3.5/lib/bundler/rubygems_integration.rb:214:in `block in replace_gem': vagrant is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:22:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T03:25:26.525371 #21874] ERROR -- Kitchen: ---Nested Exception---
+E, [2013-12-02T03:25:26.525406 #21874] ERROR -- Kitchen: Class: Mixlib::ShellOut::ShellCommandFailed
+E, [2013-12-02T03:25:26.525433 #21874] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.3.5/lib/bundler/rubygems_integration.rb:214:in `block in replace_gem': vagrant is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:22:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T03:25:26.525460 #21874] ERROR -- Kitchen: ------Backtrace-------
+E, [2013-12-02T03:25:26.525486 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2013-12-02T03:25:26.525512 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2013-12-02T03:25:26.525539 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2013-12-02T03:25:26.525564 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:116:in `silently_run'
+E, [2013-12-02T03:25:26.525614 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:193:in `vagrant_version'
+E, [2013-12-02T03:25:26.525642 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:201:in `check_vagrant_version'
+E, [2013-12-02T03:25:26.525669 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:97:in `verify_dependencies'
+E, [2013-12-02T03:25:26.525694 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver.rb:45:in `for_plugin'
+E, [2013-12-02T03:25:26.525720 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:124:in `new_driver'
+E, [2013-12-02T03:25:26.525747 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:130:in `new_instance'
+E, [2013-12-02T03:25:26.525772 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2013-12-02T03:25:26.525798 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `map'
+E, [2013-12-02T03:25:26.525824 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `with_index'
+E, [2013-12-02T03:25:26.525849 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `build_instances'
+E, [2013-12-02T03:25:26.525875 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:52:in `instances'
+E, [2013-12-02T03:25:26.525901 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:342:in `get_filtered_instances'
+E, [2013-12-02T03:25:26.525927 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:327:in `parse_subcommand'
+E, [2013-12-02T03:25:26.525952 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:141:in `block in test'
+E, [2013-12-02T03:25:26.525978 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2013-12-02T03:25:26.526004 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:137:in `test'
+E, [2013-12-02T03:25:26.526029 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+E, [2013-12-02T03:25:26.526055 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+E, [2013-12-02T03:25:26.526081 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:288:in `invoke_task'
+E, [2013-12-02T03:25:26.526106 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+E, [2013-12-02T03:25:26.526132 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+E, [2013-12-02T03:25:26.526166 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2013-12-02T03:25:26.526194 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2013-12-02T03:25:26.526220 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `<top (required)>'
+E, [2013-12-02T03:25:26.526247 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `load'
+E, [2013-12-02T03:25:26.526272 #21874] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `<main>'
+E, [2013-12-02T03:25:26.526298 #21874] ERROR -- Kitchen: ----------------------
+I, [2013-12-02T03:27:39.078466 #22486]  INFO -- Kitchen: -----> Starting Kitchen (v1.0.0.rc.2)
+E, [2013-12-02T03:27:39.702116 #22486] ERROR -- Kitchen: ------Exception-------
+E, [2013-12-02T03:27:39.702232 #22486] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2013-12-02T03:27:39.702275 #22486] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.3.5/lib/bundler/rubygems_integration.rb:214:in `block in replace_gem': vagrant is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:22:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T03:27:39.702323 #22486] ERROR -- Kitchen: ---Nested Exception---
+E, [2013-12-02T03:27:39.702353 #22486] ERROR -- Kitchen: Class: Mixlib::ShellOut::ShellCommandFailed
+E, [2013-12-02T03:27:39.702379 #22486] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant --version ----
+STDOUT: 
+STDERR: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.3.5/lib/bundler/rubygems_integration.rb:214:in `block in replace_gem': vagrant is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/bin/vagrant:22:in `<main>'
+---- End output of vagrant --version ----
+Ran vagrant --version returned 1
+E, [2013-12-02T03:27:39.702405 #22486] ERROR -- Kitchen: ------Backtrace-------
+E, [2013-12-02T03:27:39.702432 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2013-12-02T03:27:39.702458 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2013-12-02T03:27:39.702483 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2013-12-02T03:27:39.702509 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:116:in `silently_run'
+E, [2013-12-02T03:27:39.702534 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:193:in `vagrant_version'
+E, [2013-12-02T03:27:39.702561 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:201:in `check_vagrant_version'
+E, [2013-12-02T03:27:39.702607 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/kitchen-vagrant-0.12.0/lib/kitchen/driver/vagrant.rb:97:in `verify_dependencies'
+E, [2013-12-02T03:27:39.702670 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/driver.rb:45:in `for_plugin'
+E, [2013-12-02T03:27:39.702700 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:124:in `new_driver'
+E, [2013-12-02T03:27:39.702727 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:130:in `new_instance'
+E, [2013-12-02T03:27:39.702753 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2013-12-02T03:27:39.702779 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `map'
+E, [2013-12-02T03:27:39.702805 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `with_index'
+E, [2013-12-02T03:27:39.702831 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:72:in `build_instances'
+E, [2013-12-02T03:27:39.702858 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/config.rb:52:in `instances'
+E, [2013-12-02T03:27:39.702884 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:342:in `get_filtered_instances'
+E, [2013-12-02T03:27:39.702910 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:327:in `parse_subcommand'
+E, [2013-12-02T03:27:39.702935 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:141:in `block in test'
+E, [2013-12-02T03:27:39.702962 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2013-12-02T03:27:39.702988 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:137:in `test'
+E, [2013-12-02T03:27:39.703014 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+E, [2013-12-02T03:27:39.703041 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+E, [2013-12-02T03:27:39.703067 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/cli.rb:288:in `invoke_task'
+E, [2013-12-02T03:27:39.703093 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+E, [2013-12-02T03:27:39.703119 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+E, [2013-12-02T03:27:39.703145 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2013-12-02T03:27:39.703172 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2013-12-02T03:27:39.703198 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/test-kitchen-1.0.0.rc.2/bin/kitchen:13:in `<top (required)>'
+E, [2013-12-02T03:27:39.703224 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `load'
+E, [2013-12-02T03:27:39.703259 #22486] ERROR -- Kitchen: /Users/yannmarquet/.rbenv/versions/1.9.3-p448/bin/kitchen:23:in `<main>'
+E, [2013-12-02T03:27:39.703288 #22486] ERROR -- Kitchen: ----------------------
