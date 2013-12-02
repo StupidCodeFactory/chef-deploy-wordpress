@@ -17,7 +17,7 @@
 
   LogLevel info
   ErrorLog <%= @params[:error_log] %>
-  CustomLog <%= @params[:access_log] %> combined
+  CustomLog <%= @params[:custom_log] %> combined
 
   RewriteEngine On
   RewriteLog <%= @params[:rewrite_log] %>

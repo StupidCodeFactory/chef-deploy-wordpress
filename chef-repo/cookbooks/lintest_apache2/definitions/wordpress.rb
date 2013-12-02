@@ -26,4 +26,22 @@ define :wordpress, :variables => {} do
     variables params[:variables]
     backup false
   end
+
+  bash "create wordpress database" do
+    code "mysqladmin create #{params[:mysql_dbname]}"
+    not_if do
+      Dir.exists?(params[:docroot])
+    end
+  end
+
+  template "/tmp/grant.sql" do
+  end
+
+  bash "grant user access database" do
+    code "mysqladmin create #{params[:mysql_dbname]}"
+    not_if do
+      Dir.exists?(params[:docroot])
+    end
+  end
+
 end
